@@ -30,7 +30,7 @@ Please see App.cs for how to use.
             var musicRequest = CreateMusicRequest("david-gilmour-coming-back-to-life", "https://www.youtube.com/watch?v=V6LFjel-EaA");
 
             // it will create a folder here for the video, store where you'd like, so something like 'C:\Users\{username}\Documents\music-downloads'
-            var basePath = @"C:\Users\jmoce\Documents\music-downloads";
+            var basePath = @"C:\Users\{username}\Documents\music-downloads";
             var folderPath = Path.Combine(basePath, musicRequest.Name);
             var videoUrl = musicRequest.Url;
                 
