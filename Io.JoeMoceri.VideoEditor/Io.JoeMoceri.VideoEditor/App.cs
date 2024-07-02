@@ -30,7 +30,7 @@ namespace VideoEditor
             //ConvertToMp4(path);
 
             // get the bass entry
-            var bassEntry = CreateBassRequest("Bob-Marley-Natural-Mystic", "https://www.youtube.com/watch?v=UZfaIx57UqU", "https://tabs.ultimate-guitar.com/tab/bob-marley/natural-mystic-bass-797396");
+            var bassEntry = CreateBassRequest("Bob-Marley-Coming-In-From-The-Cold", "https://www.youtube.com/watch?v=TZiMSLu8M8I", "https://tabs.ultimate-guitar.com/tab/bob-marley/coming-in-from-the-cold-bass-397098");
 
             // set the path
             var path = Path.Combine(options.Value.BasePath, bassEntry.Name);
